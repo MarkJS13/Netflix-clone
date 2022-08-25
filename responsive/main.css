@@ -1,0 +1,180 @@
+
+@media (max-width: 1400px) and (min-width: 993px) {
+    
+    #main .middle-text {
+       font-size: 23px;
+       padding: 15px 150px;
+       padding-top: 30px;
+    }
+
+    #main .middle-text .text-tile {
+        max-width: 720px;
+        max-width: 660px;
+    }
+    
+}
+
+
+
+@media (max-width: 992px) and (min-width: 769px) {
+    .netflix-logo img {
+        height: 30px;
+    }
+    
+    #main .middle-text {
+       padding: 15px 50px;
+    }
+    
+    #main .middle-text .text-tile {
+        max-width: 480px;
+    }
+    
+    #main .middle-text h1 {
+        padding: 0;
+    }
+    
+    #main .middle-text h3 {
+        padding: 12px;
+        padding-bottom: 12px;
+        font-size: 25px;
+        
+    }
+    #main .middle-text h4 {
+        font-weight: 400;
+        font-size: 23px;
+        
+    }
+    #main .middle-text form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+    
+    #main .middle-text input {
+        width: 100%;
+        max-width: 500px;
+        height: 60px;
+        font-size: 15px;
+    }
+    
+    #main .middle-text button {
+        font-size: 17px;
+        width: 100%;
+        max-width: 135px;
+        height: 40px;
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+    .netflix-logo img {
+        height: 30px;
+    }
+    
+    #main .middle-text {
+        padding: 15px 60px;
+    }
+    
+    #main .middle-text .text-tile {
+        max-width: 480px;
+    }
+    
+    #main .middle-text h1 {
+        padding: 0;
+    }
+    
+    #main .middle-text h3 {
+        padding-bottom: 18px;
+    }
+
+    #main .middle-text h4 {
+        font-size: 18px;
+        
+    }
+    #main .middle-text form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+    
+    #main .middle-text input {
+        width: 100%;
+        max-width: 450px;
+        height: 35px;
+        font-size: 15px;
+    }
+    
+    #main .middle-text button {
+        font-size: 17px;
+        width: 100%;
+        max-width: 135px;
+        height: 40px;
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 578px) and (min-width: 300px) {
+    #main {
+       height: 75vh;
+       
+    }
+
+    .netflix-logo img {
+        height: 25px;
+    }
+
+    #main .header .sign-in button {
+        padding: 3px 8px;
+    }
+
+    #main .middle-text {
+        display: flex;
+        justify-content: center;
+        padding: 15px 60px;
+    }
+    
+    #main .middle-text .text-tile {
+        max-width: 480px;
+    }
+    
+    #main .middle-text h1 {
+        font-size: 28px;
+        padding: 0;
+    }
+    
+    #main .middle-text h3 {
+        padding-bottom: 18px;
+        font-size: 18px;
+    }
+
+    #main .middle-text h4 {
+        font-size: 18px;
+        
+    }
+    #main .middle-text form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+    
+    #main .middle-text input {
+        width: 100%;
+        max-width: 450px;
+        height: 35px;
+        font-size: 15px;
+    }
+    
+    #main .middle-text button {
+        font-size: 17px;
+        width: 100%;
+        max-width: 135px;
+        height: 40px;
+        padding: 10px;
+    }
+
+}
