@@ -1,0 +1,37 @@
+
+@media (max-width: 910px) and (min-width: 571px){
+    #watch-section {
+        display: flex;
+        align-items: center;
+        padding: 40px 0;
+    }
+    #watch-section h1 {
+        font-size: 43px;
+        
+    }
+    #watch-section h3 {
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 570px) and (min-width: 300px) {
+    #watch-section {
+        padding: 60px 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    #watch-section h1 {
+        font-size: 25px;
+        
+    }
+    
+    #watch-section h3 {
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    
+} 

@@ -1,0 +1,60 @@
+
+@media (max-width: 1180px) and (min-width: 701px){
+    #download-section {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 70px;
+    }
+
+    #download-section .download-text {
+        text-align: center;
+        padding: 38px;
+        padding-top: 70px;
+        padding-bottom: 0;
+        
+    }
+
+    #download-section .download-text h1 {
+        font-size: 43px;
+        padding-bottom: 13px;
+    }
+    
+    #download-section .download-text h3 {
+        font-size: 25px;
+    }
+    #download-section .download-hero {
+        padding: 0 100px;
+        
+    }
+}
+
+@media (max-width: 700px) and (min-width: 300px) {
+    #download-section {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 90px;
+        
+    }
+
+    #download-section .download-text {
+        text-align: center;
+        padding: 20px;
+        padding-top: 70px;
+        padding-bottom: 0;
+        
+    }
+
+    #download-section .download-text h1 {
+        font-size: 28px;
+        padding-bottom: 13px;
+    }
+    
+    #download-section .download-text h3 {
+        font-size: 16px;
+    }
+    #download-section .download-hero {
+        padding: 0 50px;
+        
+    }
+    
+} 

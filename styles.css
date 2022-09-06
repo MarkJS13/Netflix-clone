@@ -31,6 +31,8 @@ h1,h2,h3,h4,h5,h6,p, a, ul, li {
     
 }
 
+
+
 #main {
     height: 100vh;
     grid-row: 1/2;
@@ -184,8 +186,8 @@ h1,h2,h3,h4,h5,h6,p, a, ul, li {
 }
 
 #download-section .download-hero img{
-    width: 500px;
-    height: auto;
+    width: 100%;
+    
 }
 
 
@@ -219,12 +221,12 @@ h1,h2,h3,h4,h5,h6,p, a, ul, li {
     display: flex;
     background-color: var(--black);
     padding: 60px;
-    padding-left: 120px;
+    
     
 }
 
 #kids-section .kids-hero img{
-    width: 500px;
+    width: 100%;
     
 }
 
@@ -249,7 +251,7 @@ h1,h2,h3,h4,h5,h6,p, a, ul, li {
 
 #faq-section {
     background-color: var(--black);
-    padding: 60px;
+    padding: 100px;
 }
 
 #faq-section .faq-title {
@@ -264,8 +266,8 @@ h1,h2,h3,h4,h5,h6,p, a, ul, li {
     display: grid;
     grid-template-rows: repeat(6, 1fr);
     grid-row-gap: 10px;
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 130px;
+    padding-right: 130px;
     align-items: center;
     margin-bottom: 50px;
     
@@ -275,12 +277,26 @@ h1,h2,h3,h4,h5,h6,p, a, ul, li {
     padding: 20px;
     font-size: 25px;
     position: relative;
+    width: 100%;
+    
+}
+
+span {
+    position: absolute;
+    left: 94%;
+    overflow: hidden;
+    font-size: 20px;
 }
 
 #faq-section .get-started {
-    padding: 15px 220px;
+    padding: 15px 0px;
 }
 
+#faq-section .get-started form {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
 
 #faq-section .get-started h4 {
     font-weight: 300;
@@ -288,23 +304,18 @@ h1,h2,h3,h4,h5,h6,p, a, ul, li {
     padding-bottom: 20px;
     text-align: center;
 }
-#faq-section .get-started form {
-    display: flex;
-    width: 100%;
-    gap: 2px;
-}
 
 #faq-section .get-started input {
     padding: 20px 10px;
-    width: 70%;
+    width: 450px;
     font-size: 18px;
 }
 
 
 #faq-section .get-started button {
-    width: 30%;
+    width: 200px;
     font-size: 25px;
-    padding: 15px 15px;
+    padding: 15px;
     background-color: var(--red);
     color: #fff;
     border: transparent;
@@ -347,3 +358,4 @@ h1,h2,h3,h4,h5,h6,p, a, ul, li {
  .net-phil {
     font-size: 13px;
 }
+
